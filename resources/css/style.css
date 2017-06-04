@@ -1,0 +1,49 @@
+.header{
+  display: inline-flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding: 1px;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+
+}
+
+.logo{
+  display: flex;
+  color: MediumAquamarine;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10;
+}
+
+.logo img{
+  margin: 10px;
+}
+
+.logo p {
+  display: inline-flex;
+  margin: 0 10px;
+}
+
+.nav1{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 50px 0 0;
+}
+
+.nav1 a{
+  color: black;
+}
+
+.nav1 span{
+  padding: 0 10px;
+  justify-content: flex-end;
+}
+
+.headnav{
+  display: inline-block;
+  color: black;
+}
